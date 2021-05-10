@@ -1,0 +1,4 @@
+baseURL = "https://rjuer.github.io"
+languageCode = "en-uk"
+title = "Foo"
+theme = "noteworthy"
