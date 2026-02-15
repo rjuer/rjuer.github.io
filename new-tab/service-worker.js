@@ -10,12 +10,12 @@ const pageHtml = `
     <meta name="color-scheme" content="light dark">
     <style type="text/css" media="screen">
       body {
-        background-color: white;
+        background-color: #e8e8e8;
         color: black;
       }
       @media (prefers-color-scheme: dark) {
         body {
-          background-color: black;
+          background-color: #1e1f21;
           color: white;
         }
       }
@@ -23,7 +23,7 @@ const pageHtml = `
     <title>New Tab</title>
   </head>
 
-  <body id>
+  <body id="vimium-new-tab-page">
     <!--
       In Chrome, empirically we must put some content in the body to avoid the browser delaying the
       rendering of the page and the painting of the page's background color. The delay can be up to
