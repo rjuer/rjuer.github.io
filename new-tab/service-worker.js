@@ -23,7 +23,7 @@ const pageHtml = `
     <title>New Tab</title>
   </head>
 
-  <body id="vimium-new-tab-page">
+  <body id>
     <!--
       In Chrome, empirically we must put some content in the body to avoid the browser delaying the
       rendering of the page and the painting of the page's background color. The delay can be up to
